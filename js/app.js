@@ -24,7 +24,7 @@
       url:"/grumbles/new",
       templateUrl: "js/grumbles/new.html",
       controller: "GrumbleNewController",
-      controllerAs: "GrumbleNewModel"
+      controllerAs: "GrumbleNewViewModel"
     })
 
     .state("grumbleEdit", {

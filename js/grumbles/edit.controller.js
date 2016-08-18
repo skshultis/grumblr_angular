@@ -5,6 +5,8 @@
   .module("grumbles")
   .controller("GrumbleEditController", [
     "GrumbleFactory",
+    "$stateParams",
+    "$state",
     GrumbleEditControllerFunction
   ]);
 
